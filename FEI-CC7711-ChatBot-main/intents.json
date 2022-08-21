@@ -1,0 +1,71 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks"],
+    "responses": ["Até breve","Falou"]
+  },
+  { "tag": "intercambio",
+    "patterns":["intercambio?","como fazer intercambio?","a faculdade possui intercambio?"],
+    "responses": ["Podem se candidatar aos programas de intercâmbio os alunos regularmente matriculados nos cursos de graduação e pós-graduação do Centro Universitário FEI, campi São Bernardo do Campo e São Paulo.\nPrecisa de mais informações sobre os requisitos?\nPrecisa de mais sobre o processo de candidatura?\nPrecisa de mais informações sobre o cronograma de intercambio?\nPrecisa de mais informações sobre os custos de intercambio?\nPrecisa de mais informações sobre os destinos de intercambio?\n"]
+  },
+  { "tag": "intercambio_requisitos",
+    "patterns":["requisitos intercambio?","quais os requisitos para intercambio?","a faculdade possui requisitos para intercambio?"],
+    "responses": ["Estar regularmente matriculado no Centro Universitário FEI\nEstar em dia com as obrigações assumidas no Contrato de Prestação de Serviços Educacionais assinado com a FEI;\nTer integralizado no mínimo 30% do currículo previsto para seu curso, no momento do início previsto da viagem de estudos;\nTer média aritmética de todas as disciplinas cursadas igual ou maior a 6,0 (seis);\nManifestar compromisso de retornar ao Brasil após o período de estudos no exterior para conclusão dos estudos de graduação no Centro Universitário FEI;\nPossuir proficiência no idioma do curso de destino*."]
+  },
+  { "tag": "intercambio_cronograma",
+    "patterns":["como funciona o intercambio?","quanto tempo dura o intercambio?"],
+    "responses": ["Período de estudos no exterior: 1 (um) semestre acadêmico:\nO intercâmbio semestral poderá ser renovado por igual período desde que o Centro Universitário FEI e a instituição de acolhimento concordem com a extensão do programa e permanência do aluno. Em alguns casos, a universidade de destino poderá exigir que o programa de intercâmbio seja anual.\nDatas limites para apresentação dos documentos de candidatura:\nPeríodo do Intercâmbio:\n1º semestre: 15 de setembro\n2º semestre: 1 de abril\nNão será aceita documentação incompleta ou fora do prazo."]
+  },
+  { "tag": "intercambio_custos",
+    "patterns":["quanto custa o intercambio?","qual o custo do intercambio?", "como ingressar no programa de intercambio?"],
+    "responses": ["Durante o período de intercâmbio, o estudante continuará regularmente matriculado no Centro Universitário, com registro acadêmico em intercâmbio, e deverá continuar pagando as mesmas taxas de matrícula e mensalidades à FEI, sem qualquer acréscimo. Com exceção de possíveis taxas administrativas do país ou universidade anfitriã, o participante do programa estará isento de pagamentos à instituição estrangeira.\nOs custos de hospedagem, alimentação, seguro de saúde, passaporte, visto, passagem aérea e gastos pessoais são de responsabilidade do aluno.\nEm alguns casos, para fins de migração, o aluno deverá apresentar uma declaração financeira emitida por um banco sediado no Brasil, indicando que o candidato possui condições de se manter no exterior."]
+  },
+  { "tag": "intercambio_candidatura",
+    "patterns":["como se candidatar para intercambio?","como se inscrever intercambio?", "como ingressar no programa de intercambio?"],
+    "responses": ["Formulário de Inscrição FEI;\nFicha de Inscrição da Instituição de destino;\nCópia da página de identificação do passaporte, com validade para todo o período de estudos no exterior;\nHistórico escolar (em português ou inglês, dependendo do destino);\nCarta de Apresentação/Motivação (no idioma da universidade anfitriã);\nCurrículo (no idioma da universidade anfitriã).2 fotos 3x4;"]
+  },
+  { "tag": "idiomas",
+    "patterns":["quais idiomas?","Que idiomas tem?"],
+    "responses": ["Os idiomas disponiveis são: Alemão\n Catalão\n Chinês\n Francês\n Espanhol\n Inglês\n"]
+  },
+  { "tag": "Alemão",
+    "patterns":["tem Alemao?","tem para a Alemanha?", "Possui para a Alemanha?", "possui Alemao?", "tem no Alemanha?", "Alemanha", "Alemao"],
+    "responses": ["Temos Curso de Alemão, na Karlsruhe Institute of Technology, desde básico a avançado."]
+  },
+  { "tag": "Catalão",
+    "patterns":["tem Catalao?","tem para a Espanha?", "Possui para a Espanha?", "possui Catalao?", "tem na Espanha?", "Espanha", "Catalao"],
+    "responses": ["Os cursos de Catalão são oferecidos na Universidad Autònoma de Barcelona, podendo ser virtual ou semi-presencial"]
+  },
+  { "tag": "Chinês",
+    "patterns":["tem Chines?","tem para Taiwan?", "Possui para Taiwan?", "possui Chines?", "tem em Taiwan?", "Taiwan", "Chines", "Mandarim", "Tem para Mandarim?"],
+    "responses": ["Possuimos curso de chinês na Providence University em Taiwan"]
+  },
+  { "tag": "Francês",
+    "patterns":["tem Frances?","tem para a Franca?", "Possui para a Franca?", "possui Frances?", "tem na Franca?", "Franca", "Frances"],
+    "responses": ["Temos Curso de frânces em parceria com a Aliança Francesa no Grande ABC"]
+  },
+  { "tag": "Espanhol",
+    "patterns":["tem Espanhol?","tem para o Chile?", "Possui para o Chile?", "possui Espanhol?", "tem no Chile?", "Peru", "Espanhol", "Tem no Peru?", "Tem no Mexico?", "Chile", "Mexico", "Tem para o Mexico?"],
+    "responses": ["Possuimos cursos de espanhol no Chile, Peru, México e Espanha! Veja o guia completo em nosso site: \n https://portal.fei.edu.br/relacoes-internacionais"]
+  },
+  { "tag": "Inglês",
+    "patterns":["tem ingles?","tem para o Estados Unidos?", "Possui para o Estados Unidos?", "possui inglês?", "tem no Estados Unidos?", "Estados Unidos", "inglês"],
+    "responses": ["Temos Curso de inglês nos Estados Unidos Na californa e em Nova York! Veja completamente em https://portal.fei.edu.br/relacoes-internacionais"]
+  },
+  { "tag": "japones",
+    "patterns":["tem Japones?","tem para o Japao?", "Possui para o Japao?", "possui Japones?", "tem no japao?", "japones", "japao", "tem Japones?"],
+    "responses": ["Não possuimos para o Japão, mas aqui vai a recomendação de um anime: Evangelion", "Não possuimos para o Japão, mas aqui vai a recomendação de um anime: Attack on Titan", "Não possuimos para o Japão, mas aqui vai a recomendação de um anime: Jujutsu Kaisen", "Não possuimos para o Japão, mas aqui vai a recomendação de um anime: Bunny Girl Senpai", "Não possuimos para o Japão, mas aqui vai a recomendação de um anime: Demon Slayer", "Não possuimos para o Japão, mas aqui vai a recomendação de um anime: Domestic na Kanojo"]
+  },
+  { "tag": "Destino",
+    "patterns":["Aonde tem intercambio??","Para que lugares?", "Quais os Destinos?", "Destinos", "Em quais lugares?", "Quais Paises?", "Quais os Lugares?", "Quais os paises?"],
+    "responses": ["Temos intercambio em: Alemanha\n Argentina\nBrasil\nCanadá\nChile\nColômbia\nEl Salvador\nEquador\nEspanha\nFrança\nGuatemala\nHungria\nMéxico\nNicarágua\nParaguai\nPeru\nPortugal\nRepública Dominicana\nSuécia\nTaiwan\nUruguai\nVenezuela"]
+  },
+  { "tag": "contato",
+    "patterns":["Qual o telefone?","Qual o e-mail?", "por onde posso fazer Contato?", "como entrar em contato?", "Tem Email?", "Qual o endereçco?", "Aonde vocês ficam?"],
+    "responses": ["E-mail: internacional@fei.edu.br \n Telefone: +55 11 4353- 2900 Ramal: 2234 \n Local: Campus São Bernardo do Campo - Prédio D - Térreo - Sala 07"]
+  }
+]
+}
